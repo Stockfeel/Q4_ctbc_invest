@@ -31,7 +31,7 @@ body.fixed{
 
 a{
 	color: inherit;
-	font-weight: 100;
+	font-weight: 600;
 	text-decoration: none;
 }
 
@@ -257,17 +257,17 @@ pc{
 
 
 
-		&[data-section="startup"]{
+		&[data-section="family"]{
 			.title01{
 				color: #FAB513;
 			}
 		}
-		&[data-section="traveler"]{
+		&[data-section="worker"]{
 			.title01{
 				color: #FF8094;
 			}
 		}
-		&[data-section="boss"]{
+		&[data-section="lady"]{
 			.title01{
 				color: #74BBDA;
 			}
@@ -431,15 +431,15 @@ section.index-main{
 		background-position: center bottom 30%;
 		position: relative;
 
-		&[data-section="startup"]{
+		&[data-section="family"]{
 			background-color: #bad8f1;
 			background-image: url("../images/index/kv01.png");
 		}
-		&[data-section="traveler"]{
+		&[data-section="worker"]{
 			background-color: #f8f4e2;
 			background-image: url("../images/index/kv02.png");
 		}
-		&[data-section="boss"]{
+		&[data-section="lady"]{
 			background-color: #91beb0;
 			background-image: url("../images/index/kv03.png");
 		}
@@ -700,7 +700,7 @@ section.banner{
 
 body[page="startup"] section.banner{
 	background-color: #bad8f1;
-	background-image: url("../images/startup/banner.png");
+	background-image: url("../images/family/banner.png");
 }
 body[page="traveler"] section.banner{
 	background-color: #f8f4e2;
@@ -714,13 +714,13 @@ body[page="boss"] section.banner{
 section.intro{
 	width: 100%;
 	position: relative;
-	background-color: #E8CE97;
+	background-color: #A3D4C3;
 	background-size: 100% auto;
 	background-position: center top;
 	background-repeat: no-repeat;
 }
 body[page="startup"] section.intro{
-	background-image: url("../images/startup/bg.png");
+	background-image: url("../images/family/bg.png");
 }
 body[page="traveler"] section.intro{
 	background-color: #F2A5A5;
@@ -912,13 +912,13 @@ section.intro{
 
 		.note{
 			.notepaper{
-				height: 445px;
+				height: 550px;
 				position: relative;
 				background-size: 100%;
 				background-repeat: no-repeat;
 				background-position: center top;
 				background-image: url("../images/notepaper.png");
-				padding-top: 50px;
+				padding-top: 120px;
 
 				.hash{
 					display: none;
@@ -1005,7 +1005,7 @@ section.intro{
 				}
 
 				ol{
-					width: 50%;
+					width: 70%;
 					margin: 0 auto;
 					list-style: none;
 					-webkit-padding-start: 0;
@@ -1020,11 +1020,13 @@ section.intro{
 						}
 						span{
 							line-height: 60px;
-							width: 60%;
+							width: 70%;
+							color: #fff;
 						}
 						a{
 							text-decoration: underline;
-							width: 40%;
+							width: 30%;
+							color: #fff;
 						}
 					}
 				}
@@ -1233,12 +1235,12 @@ section.intro{
 /* -----------------------------------*/
 @media screen and (max-width: 2680px) { 
 	section.intro {
-		padding-top: 900px;
+		padding-top: 100px;
 	}
 }
 @media screen and (max-width: 1680px) { 
 	section.intro {
-		padding-top: 560px;
+		padding-top: 100px;
 	}
 }
 @media screen and (max-width: 1366px) { 
@@ -1356,13 +1358,13 @@ section.intro{
 			width: 100%;
 
 		}
-		section.index-main li[data-section="startup"]{
+		section.index-main li[data-section="family"]{
 			background-image: url('../images/index/kv01-m.png');
 		}
-		section.index-main li[data-section="traveler"]{
+		section.index-main li[data-section="worker"]{
 			background-image: url('../images/index/kv02-m.png');
 		}
-		section.index-main li[data-section="boss"]{
+		section.index-main li[data-section="lady"]{
 			background-image: url('../images/index/kv03-m.png');
 		}
 		section.index-main li .button img {
@@ -1395,7 +1397,7 @@ section.intro{
 	}
 
 	section.intro {
-		padding-top: 400px;
+		padding-top: 100px;
 	}
 	section.intro .wrap .note .notepaper {
 		font-size: 14px;
@@ -1453,7 +1455,7 @@ section.intro{
 			font-size: 4vw;
 		}
 		body[page=startup] section.banner {
-			background-image: url("../images/startup/banner_m.png");
+			background-image: url("../images/family/banner_m.png");
 		}
 		body[page=traveler] section.banner {
 			background-image: url("../images/traveler/banner_m.png");
@@ -1555,13 +1557,13 @@ section.intro{
 			width: 100%;
 
 		}
-		section.index-main li[data-section="startup"]{
+		section.index-main li[data-section="family"]{
 			background-image: url('../images/index/kv01-m.png');
 		}
-		section.index-main li[data-section="traveler"]{
+		section.index-main li[data-section="worker"]{
 			background-image: url('../images/index/kv02-m.png');
 		}
-		section.index-main li[data-section="boss"]{
+		section.index-main li[data-section="lady"]{
 			background-image: url('../images/index/kv03-m.png');
 		}
 		section.index-main li .button img {
@@ -1594,7 +1596,7 @@ section.intro{
 
 		/* banner */
 		&[page=startup] section.banner {
-			background-image: url('../images/startup/banner_m.png');
+			background-image: url('../images/family/banner_m.png');
 		}
 		&[page=traveler] section.banner {
 			background-image: url('../images/traveler/banner_m.png');
@@ -1722,7 +1724,7 @@ section.intro{
 	}
 
 	body[page="startup"] section.intro{
-		background-image: url("../images/startup/bg_m.png");
+		background-image: url("../images/family/bg_m.png");
 	}
 	body[page="traveler"] section.intro{
 		background-image: url("../images/traveler/bg_m.png");
@@ -1799,7 +1801,7 @@ section.intro{
 
 
 		&[page=startup] section.banner {
-			background-image: url('../images/startup/banner_m.png');
+			background-image: url('../images/family/banner_m.png');
 		}
 		&[page=traveler] section.banner {
 			background-image: url('../images/traveler/banner_m.png');

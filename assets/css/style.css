@@ -22,7 +22,7 @@ body.fixed {
 }
 a {
   color: inherit;
-  font-weight: 100;
+  font-weight: 600;
   text-decoration: none;
 }
 ::selection {
@@ -211,13 +211,13 @@ pc {
   font-size: 17px;
   font-weight: bold;
 }
-.menuwrap li[data-section="startup"] .title01 {
+.menuwrap li[data-section="family"] .title01 {
   color: #FAB513;
 }
-.menuwrap li[data-section="traveler"] .title01 {
+.menuwrap li[data-section="worker"] .title01 {
   color: #FF8094;
 }
-.menuwrap li[data-section="boss"] .title01 {
+.menuwrap li[data-section="lady"] .title01 {
   color: #74BBDA;
 }
 .menuwrap.block {
@@ -358,15 +358,15 @@ section.index-main li {
   background-position: center bottom 30%;
   position: relative;
 }
-section.index-main li[data-section="startup"] {
+section.index-main li[data-section="family"] {
   background-color: #bad8f1;
   background-image: url("../images/index/kv01.png");
 }
-section.index-main li[data-section="traveler"] {
+section.index-main li[data-section="worker"] {
   background-color: #f8f4e2;
   background-image: url("../images/index/kv02.png");
 }
-section.index-main li[data-section="boss"] {
+section.index-main li[data-section="lady"] {
   background-color: #91beb0;
   background-image: url("../images/index/kv03.png");
 }
@@ -566,7 +566,7 @@ section.banner .bubbles.left li[n="3"] text {
 }
 body[page="startup"] section.banner {
   background-color: #bad8f1;
-  background-image: url("../images/startup/banner.png");
+  background-image: url("../images/family/banner.png");
 }
 body[page="traveler"] section.banner {
   background-color: #f8f4e2;
@@ -579,13 +579,13 @@ body[page="boss"] section.banner {
 section.intro {
   width: 100%;
   position: relative;
-  background-color: #E8CE97;
+  background-color: #A3D4C3;
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
 }
 body[page="startup"] section.intro {
-  background-image: url("../images/startup/bg.png");
+  background-image: url("../images/family/bg.png");
 }
 body[page="traveler"] section.intro {
   background-color: #F2A5A5;
@@ -749,13 +749,13 @@ section.intro .wrap .people[data-type="boss"] {
   right: 5%;
 }
 section.intro .wrap .note .notepaper {
-  height: 445px;
+  height: 550px;
   position: relative;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center top;
   background-image: url("../images/notepaper.png");
-  padding-top: 50px;
+  padding-top: 120px;
 }
 section.intro .wrap .note .notepaper .hash {
   display: none;
@@ -827,7 +827,7 @@ section.intro .wrap .note .notepaper .each ol bullet {
   line-height: 28px;
 }
 section.intro .wrap .note .notepaper ol {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   list-style: none;
   -webkit-padding-start: 0;
@@ -843,11 +843,13 @@ section.intro .wrap .note .notepaper ol li img {
 }
 section.intro .wrap .note .notepaper ol li span {
   line-height: 60px;
-  width: 60%;
+  width: 70%;
+  color: #fff;
 }
 section.intro .wrap .note .notepaper ol li a {
   text-decoration: underline;
-  width: 40%;
+  width: 30%;
+  color: #fff;
 }
 section.intro .wrap .gobutton {
   width: 210px;
@@ -1026,12 +1028,12 @@ section.intro .wrap .action {
 /* -----------------------------------*/
 @media screen and (max-width: 2680px) {
   section.intro {
-    padding-top: 900px;
+    padding-top: 100px;
   }
 }
 @media screen and (max-width: 1680px) {
   section.intro {
-    padding-top: 560px;
+    padding-top: 100px;
   }
 }
 @media screen and (max-width: 1366px) {
@@ -1138,13 +1140,13 @@ section.intro .wrap .action {
     height: 25vh;
     width: 100%;
   }
-  body[rotate="false"] section.index-main li[data-section="startup"] {
+  body[rotate="false"] section.index-main li[data-section="family"] {
     background-image: url('../images/index/kv01-m.png');
   }
-  body[rotate="false"] section.index-main li[data-section="traveler"] {
+  body[rotate="false"] section.index-main li[data-section="worker"] {
     background-image: url('../images/index/kv02-m.png');
   }
-  body[rotate="false"] section.index-main li[data-section="boss"] {
+  body[rotate="false"] section.index-main li[data-section="lady"] {
     background-image: url('../images/index/kv03-m.png');
   }
   body[rotate="false"] section.index-main li .button img {
@@ -1173,7 +1175,7 @@ section.intro .wrap .action {
     background-size: contain;
   }
   section.intro {
-    padding-top: 400px;
+    padding-top: 100px;
   }
   section.intro .wrap .note .notepaper {
     font-size: 14px;
@@ -1227,7 +1229,7 @@ section.intro .wrap .action {
     font-size: 4vw;
   }
   body[rotate="false"] body[page=startup] section.banner {
-    background-image: url("../images/startup/banner_m.png");
+    background-image: url("../images/family/banner_m.png");
   }
   body[rotate="false"] body[page=traveler] section.banner {
     background-image: url("../images/traveler/banner_m.png");
@@ -1319,13 +1321,13 @@ section.intro .wrap .action {
     height: 25vh;
     width: 100%;
   }
-  body[rotate="false"] section.index-main li[data-section="startup"] {
+  body[rotate="false"] section.index-main li[data-section="family"] {
     background-image: url('../images/index/kv01-m.png');
   }
-  body[rotate="false"] section.index-main li[data-section="traveler"] {
+  body[rotate="false"] section.index-main li[data-section="worker"] {
     background-image: url('../images/index/kv02-m.png');
   }
-  body[rotate="false"] section.index-main li[data-section="boss"] {
+  body[rotate="false"] section.index-main li[data-section="lady"] {
     background-image: url('../images/index/kv03-m.png');
   }
   body[rotate="false"] section.index-main li .button img {
@@ -1354,7 +1356,7 @@ section.intro .wrap .action {
     background-size: contain;
   }
   body[rotate="false"][page=startup] section.banner {
-    background-image: url('../images/startup/banner_m.png');
+    background-image: url('../images/family/banner_m.png');
   }
   body[rotate="false"][page=traveler] section.banner {
     background-image: url('../images/traveler/banner_m.png');
@@ -1471,7 +1473,7 @@ section.intro .wrap .action {
     margin-bottom: 1rem;
   }
   body[page="startup"] section.intro {
-    background-image: url("../images/startup/bg_m.png");
+    background-image: url("../images/family/bg_m.png");
   }
   body[page="traveler"] section.intro {
     background-image: url("../images/traveler/bg_m.png");
@@ -1538,7 +1540,7 @@ section.intro .wrap .action {
     /* banner */
   }
   body[rotate="false"][page=startup] section.banner {
-    background-image: url('../images/startup/banner_m.png');
+    background-image: url('../images/family/banner_m.png');
   }
   body[rotate="false"][page=traveler] section.banner {
     background-image: url('../images/traveler/banner_m.png');
