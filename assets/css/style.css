@@ -713,7 +713,7 @@ section.intro .title_3 {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  color: #303234;
+  color: #fff;
   margin: 40px auto;
 }
 section.intro .wrap {
@@ -1426,7 +1426,7 @@ section.intro .wrap .action {
   }
   /* intro */
   section.intro {
-    padding-top: 900px;
+    padding-top: 100px;
   }
   section.intro .title_2 {
     font-size: 2rem;
@@ -1576,12 +1576,12 @@ section.intro .wrap .action {
     position: relative;
   }
   section.intro .wrap .note .notepaper {
-    padding-top: 30px;
-    height: 450px;
-    background-image: url("../images/notepaper_m.png");
+    padding-top: 55px;
+    height: 476px;
+    background-image: url(../images/notepaper_m.png);
   }
   section.intro .wrap .note .notepaper ol {
-    width: 90%;
+    width: 80%;
   }
   section.intro .wrap .note .notepaper ol li span {
     line-height: 30px;
@@ -1741,7 +1741,7 @@ section.intro .wrap .action {
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    color: #555;
+    color: #fff;
     margin: auto;
     margin-top: 45px;
     margin-bottom: 21px;
