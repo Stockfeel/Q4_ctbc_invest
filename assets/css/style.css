@@ -276,6 +276,9 @@ pc {
 .menuwrap.block a[data-section="q2"] {
   background-color: #6CB7E9;
 }
+.menuwrap.block a[data-section="q3"] {
+  background-color: #9D73CE;
+}
 .menuwrap_cancel {
   background-color: #000;
   position: fixed;
