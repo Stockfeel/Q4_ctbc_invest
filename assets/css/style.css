@@ -568,11 +568,11 @@ body[page="startup"] section.banner {
   background-color: #bad8f1;
   background-image: url("../images/family/banner.png");
 }
-body[page="traveler"] section.banner {
+body[page="worker"] section.banner {
   background-color: #f8f4e2;
   background-image: url("../images/worker/banner.png");
 }
-body[page="boss"] section.banner {
+body[page="lady"] section.banner {
   background-color: #91beb0;
   background-image: url("../images/lady/banner.png");
 }
@@ -587,11 +587,11 @@ section.intro {
 body[page="startup"] section.intro {
   background-image: url("../images/family/bg.png");
 }
-body[page="traveler"] section.intro {
+body[page="worker"] section.intro {
   background-color: #D6D1A9;
   background-image: url("../images/worker/bg.png");
 }
-body[page="boss"] section.intro {
+body[page="lady"] section.intro {
   background-color: #5AA8AD;
   background-image: url("../images/lady/bg.png");
 }
@@ -1475,10 +1475,10 @@ section.intro .wrap .action {
   body[page="family"] section.intro {
     background-image: none;
   }
-  body[page="traveler"] section.intro {
+  body[page="worker"] section.intro {
     background-image: none;
   }
-  body[page="boss"] section.intro {
+  body[page="lady"] section.intro {
     background-image: none;
   }
 }
