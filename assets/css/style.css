@@ -455,7 +455,7 @@ section.banner .dots li {
 section.banner .dots li.selected {
   background-color: #FFF;
 }
-section.banner .dots[data-type="startup"] li {
+section.banner .dots[data-type="family"] li {
   background-color: #86041A;
 }
 section.banner .dots[data-type="traveler"] li {
@@ -588,7 +588,7 @@ body[page="startup"] section.intro {
   background-image: url("../images/family/bg.png");
 }
 body[page="traveler"] section.intro {
-  background-color: #F2A5A5;
+  background-color: #D6D1A9;
   background-image: url("../images/worker/bg.png");
 }
 body[page="boss"] section.intro {
@@ -721,7 +721,7 @@ section.intro .wrap {
   position: relative;
   margin: auto;
 }
-section.intro .wrap .p3s[data-type="startup"] {
+section.intro .wrap .p3s[data-type="family"] {
   width: 65%;
   margin-left: 2%;
 }
@@ -737,7 +737,7 @@ section.intro .wrap .people {
   position: absolute;
   right: 0px;
 }
-section.intro .wrap .people[data-type="startup"] {
+section.intro .wrap .people[data-type="family"] {
   width: 35%;
 }
 section.intro .wrap .people[data-type="traveler"] {
@@ -782,7 +782,7 @@ section.intro .wrap .note .notepaper .mynote {
   margin-bottom: 20px;
 }
 section.intro .wrap .note .notepaper .mynote[data-type="traveler"] {
-  color: #FF8094;
+  color: #74BBDA;
 }
 section.intro .wrap .note .notepaper .mynote[data-type="boss"] {
   color: #74BBDA;
@@ -799,7 +799,7 @@ section.intro .wrap .note .notepaper .each .subname {
   text-align: center;
   margin-top: 20px;
 }
-section.intro .wrap .note .notepaper .each .subname[data-type="startup"] {
+section.intro .wrap .note .notepaper .each .subname[data-type="family"] {
   color: #ff7489;
 }
 section.intro .wrap .note .notepaper .each .subname[data-type="traveler"] {
@@ -1472,14 +1472,14 @@ section.intro .wrap .action {
     margin-right: 2rem;
     margin-bottom: 1rem;
   }
-  body[page="startup"] section.intro {
-    background-image: url("../images/family/bg_m.png");
+  body[page="family"] section.intro {
+    background-image: none;
   }
   body[page="traveler"] section.intro {
-    background-image: url("../images/worker/bg_m.png");
+    background-image: none;
   }
   body[page="boss"] section.intro {
-    background-image: url("../images/boss/bg_m.png");
+    background-image: none;
   }
 }
 @media screen and (max-width: 576px) {
