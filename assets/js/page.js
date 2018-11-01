@@ -108,7 +108,7 @@ $(document).ready(function(){
 					var s1=200;
 					var s2=400;
 					var s3=600;
-					var sEnd=600; // 600px 轉換距離
+					var sEnd=590; // 600px 轉換距離
 
                     var pos = $(window).scrollTop();
                     console.log(pos+'/'+winH);
