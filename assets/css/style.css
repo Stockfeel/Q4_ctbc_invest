@@ -458,10 +458,10 @@ section.banner .dots li.selected {
 section.banner .dots[data-type="family"] li {
   background-color: #86041A;
 }
-section.banner .dots[data-type="traveler"] li {
+section.banner .dots[data-type="worker"] li {
   background-color: #473637;
 }
-section.banner .dots[data-type="boss"] li {
+section.banner .dots[data-type="lady"] li {
   background-color: #8166cc;
 }
 section.banner .dots li.selected {
@@ -725,11 +725,11 @@ section.intro .wrap .p3s[data-type="family"] {
   width: 65%;
   margin-left: 2%;
 }
-section.intro .wrap .p3s[data-type="traveler"] {
+section.intro .wrap .p3s[data-type="worker"] {
   width: 60%;
   margin-left: 5%;
 }
-section.intro .wrap .p3s[data-type="boss"] {
+section.intro .wrap .p3s[data-type="lady"] {
   width: 60%;
   margin-left: 5%;
 }
@@ -740,11 +740,11 @@ section.intro .wrap .people {
 section.intro .wrap .people[data-type="family"] {
   width: 35%;
 }
-section.intro .wrap .people[data-type="traveler"] {
+section.intro .wrap .people[data-type="worker"] {
   width: 22%;
   right: 5%;
 }
-section.intro .wrap .people[data-type="boss"] {
+section.intro .wrap .people[data-type="lady"] {
   width: 25%;
   right: 5%;
 }
@@ -760,7 +760,7 @@ section.intro .wrap .note .notepaper {
 section.intro .wrap .note .notepaper .hash {
   display: none;
 }
-section.intro .wrap .note .notepaper[data-type="traveler"] {
+section.intro .wrap .note .notepaper[data-type="worker"] {
   height: 500px;
 }
 section.intro .wrap .note .notepaper .dashed {
@@ -781,11 +781,11 @@ section.intro .wrap .note .notepaper .mynote {
   font-weight: bold;
   margin-bottom: 20px;
 }
-section.intro .wrap .note .notepaper .mynote[data-type="traveler"] {
+section.intro .wrap .note .notepaper .mynote[data-type="worker"] {
   color: #74BBDA;
 }
-section.intro .wrap .note .notepaper .mynote[data-type="boss"] {
-  color: #74BBDA;
+section.intro .wrap .note .notepaper .mynote[data-type="lady"] {
+  color: #FF8094;
 }
 section.intro .wrap .note .notepaper .each {
   float: left;
@@ -802,10 +802,10 @@ section.intro .wrap .note .notepaper .each .subname {
 section.intro .wrap .note .notepaper .each .subname[data-type="family"] {
   color: #ff7489;
 }
-section.intro .wrap .note .notepaper .each .subname[data-type="traveler"] {
+section.intro .wrap .note .notepaper .each .subname[data-type="worker"] {
   color: #f07442;
 }
-section.intro .wrap .note .notepaper .each .subname[data-type="boss"] {
+section.intro .wrap .note .notepaper .each .subname[data-type="lady"] {
   color: #6c70bf;
 }
 section.intro .wrap .note .notepaper .each ol {
@@ -904,6 +904,12 @@ section.intro .wrap .action {
   top: 0px;
   z-index: -1;
   cursor: pointer;
+}
+body[page="lady"] section.intro .wrap .note .notepaper ol li span {
+  width: 60%;
+}
+body[page="lady"] section.intro .wrap .note .notepaper ol li a {
+  width: 40%;
 }
 /* Animation */
 .bounceIn {
@@ -1583,7 +1589,7 @@ section.intro .wrap .action {
     width: 80%;
   }
   section.intro .wrap .note .notepaper ol li span {
-    line-height: 30px;
+    line-height: 25px;
     padding-top: 10px;
     width: 60%;
   }

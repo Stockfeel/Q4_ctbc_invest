@@ -551,10 +551,10 @@ section.banner{
 		background-color: #86041A;
 	}
 
-	.dots[data-type="traveler"] li{
+	.dots[data-type="worker"] li{
 		background-color: #473637;
 	}
-	.dots[data-type="boss"] li{
+	.dots[data-type="lady"] li{
 		background-color: #8166cc;
 	}
 
@@ -884,11 +884,11 @@ section.intro{
 				width: 65%;
 				margin-left: 2%;
 			}
-			&[data-type="traveler"]{
+			&[data-type="worker"]{
 				width: 60%;
 				margin-left: 5%;
 			}
-			&[data-type="boss"]{
+			&[data-type="lady"]{
 				width: 60%;
 				margin-left: 5%;
 			}
@@ -900,11 +900,11 @@ section.intro{
 			&[data-type="family"]{
 				width: 35%;
 			}
-			&[data-type="traveler"]{
+			&[data-type="worker"]{
 				width: 22%;
 				right: 5%;
 			}
-			&[data-type="boss"]{
+			&[data-type="lady"]{
 				width: 25%;
 				right: 5%;
 			}
@@ -927,10 +927,10 @@ section.intro{
 
 				&[data-type="family"]{
 				}
-				&[data-type="traveler"]{
+				&[data-type="worker"]{
 					height: 500px;
 				}
-				&[data-type="boss"]{
+				&[data-type="lady"]{
 				}
 
 
@@ -953,11 +953,11 @@ section.intro{
 					font-weight: bold;
 					margin-bottom: 20px;
 
-					&[data-type="traveler"]{
+					&[data-type="worker"]{
 						color: #74BBDA;
 					}
-					&[data-type="boss"]{
-						color: #74BBDA;
+					&[data-type="lady"]{
+						color: #FF8094;
 					}
 				}
 
@@ -976,10 +976,10 @@ section.intro{
 						&[data-type="family"]{
 							color: #ff7489;
 						}
-						&[data-type="traveler"]{
+						&[data-type="worker"]{
 							color: #f07442
 						}
-						&[data-type="boss"]{
+						&[data-type="lady"]{
 							color: #6c70bf
 						}
 					}
@@ -1100,6 +1100,14 @@ section.intro{
 
 }
 
+body[page="lady"]{
+	section.intro .wrap .note .notepaper ol li span {
+		width: 60%;
+	}
+	section.intro .wrap .note .notepaper ol li a {
+		width: 40%;
+	}
+}
 
 /* Animation */
 
@@ -1733,7 +1741,6 @@ section.intro{
 		background-image: none;
 	}
 
-	
 }
 @media screen and (max-width: 576px) {  /* phone*/
 	.container {
@@ -1850,7 +1857,7 @@ section.intro{
 		width: 80%;
 	}
 	section.intro .wrap .note .notepaper ol li span {
-		line-height: 30px;
+		line-height: 25px;
 		padding-top: 10px;
 		width: 60%;
 	}
