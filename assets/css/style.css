@@ -337,7 +337,7 @@ section.index-main .title-image {
   text-align: center;
 }
 section.index-main .title-image img {
-  height: 100%;
+  width: 100%;
 }
 section.index-main .film {
   width: 100px;
@@ -1038,9 +1038,6 @@ section.intro .wrap .action {
   }
   body[page="lady"] section.intro .wrap .note .notepaper ol li a {
     width: 40%;
-  }
-  section.intro .wrap .note .notepaper ol li span {
-    line-height: 30px;
   }
 }
 @media screen and (max-width: 1680px) {
