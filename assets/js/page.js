@@ -193,7 +193,7 @@ $(document).ready(function(){
                              $('body').addClass('fixed');
                     }
      
-                    if(pos>=1){
+                    if(pos>=1){ //if(pos>=sEnd){
 
                               $('body.fixed').removeClass('fixed');
                     		$('.banner.fixed').removeClass('fixed');
