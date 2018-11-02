@@ -1039,6 +1039,9 @@ section.intro .wrap .action {
   body[page="lady"] section.intro .wrap .note .notepaper ol li a {
     width: 40%;
   }
+  section.intro .wrap .note .notepaper ol li span {
+    line-height: 30px;
+  }
 }
 @media screen and (max-width: 1680px) {
   section.intro {
@@ -1595,6 +1598,7 @@ section.intro .wrap .action {
   section.intro .wrap .note .notepaper ol li span {
     line-height: 25px;
     padding-top: 10px;
+    font-size: 14px;
     width: 60%;
   }
   section.intro .wrap .note .notepaper ol li a {
@@ -1753,7 +1757,6 @@ section.intro .wrap .action {
     color: #fff;
     margin: auto;
     margin-top: 25px;
-    margin-bottom: 50px;
     width: 60%;
     /* margin: auto; */
   }
