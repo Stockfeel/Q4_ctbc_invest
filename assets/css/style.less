@@ -25,9 +25,7 @@ body{
 	margin: 0px;
 	padding-top: 60px;
 }
-body.fixed{
-	padding-top: 660px;  // 600px +60(nav) 轉換距離
-}
+
 
 a{
 	color: inherit;
@@ -510,16 +508,8 @@ section.banner{
 	position: relative;
 	background-size: auto 100%;
 	background-position: center;
-	margin-top: 600px; // 600px 轉換距離
+	margin-top: 0px; // 600px 轉換距離
 	background-repeat: no-repeat;
-
-	&.fixed{
-		position: fixed;
-		z-index: 1;
-		top:60px;
-		margin-top: 0px;
-
-	}
 
 	.dots{
 		right: 50px;
@@ -1769,7 +1759,7 @@ section.intro{
 
 	.banner .title_1 {
 		font-size: 1.2rem;
-		margin: 100px auto 0;
+		margin: 30px auto 0;
 	}
 
 	/* index */

@@ -17,9 +17,6 @@ body {
   margin: 0px;
   padding-top: 60px;
 }
-body.fixed {
-  padding-top: 660px;
-}
 a {
   color: inherit;
   font-weight: 600;
@@ -426,14 +423,8 @@ section.banner {
   position: relative;
   background-size: auto 100%;
   background-position: center;
-  margin-top: 600px;
-  background-repeat: no-repeat;
-}
-section.banner.fixed {
-  position: fixed;
-  z-index: 1;
-  top: 60px;
   margin-top: 0px;
+  background-repeat: no-repeat;
 }
 section.banner .dots {
   right: 50px;
@@ -1512,7 +1503,7 @@ section.intro .wrap .action {
   }
   .banner .title_1 {
     font-size: 1.2rem;
-    margin: 100px auto 0;
+    margin: 30px auto 0;
   }
   /* index */
   body[rotate="false"] section.index-main {
