@@ -824,7 +824,7 @@ section.intro .wrap .note .notepaper .each ol bullet {
   line-height: 28px;
 }
 section.intro .wrap .note .notepaper ol {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   list-style: none;
   -webkit-padding-start: 0;
@@ -1032,6 +1032,9 @@ section.intro .wrap .action {
   }
   body[page="lady"] section.intro .wrap .note .notepaper ol li a {
     width: 40%;
+  }
+  section.intro .wrap .note .notepaper {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 1680px) {
